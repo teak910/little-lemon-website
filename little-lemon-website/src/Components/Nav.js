@@ -1,13 +1,18 @@
 import React from 'react';
-import Logo from '../Assets/logo1.jpg';
+import Logo from '../Assets/logo1.jpg'
 
 const Nav = () => {
 
   return (
-    <nav>
+    <nav className='nav-bar'>
       <a href='/' className='logo-photo'>
         <img src={Logo} alt='logo-photo' />
       </a>
+      <div className='menu-icon'>
+        <div className='bar'></div>
+        <div className='bar'></div>
+        <div className='bar'></div>
+      </div>
       <ul>
         <li>
           <a href='/'>Home</a>
